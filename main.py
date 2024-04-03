@@ -4,7 +4,7 @@ import requests
 # Set URL
 # Run: 
 # update REST_API_URL to your backend link (currently not dynamic)
-REST_API_URL = "https://inference-rosa-workshop-demo-linuxvm.apps.rosa.rosa-hcp-ws001.1rhx.p3.openshiftapps.comapi/predict"
+REST_API_URL = "https://inference-rosa-workshop-demo-linuxvm.apps.rosa.rosa-hcp-ws001.1rhx.p3.openshiftapps.com/api/predict"
 
 # Inference!
 def inference(image_path):
